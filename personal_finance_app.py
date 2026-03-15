@@ -52,7 +52,7 @@ with col3:
     hist_categories=px.bar(budget_order,x='Category', y = 'Budget', labels={'Budget': 'Amount'}, title="Top ten budget categories")
     hist_categories.update_traces(marker_color = 'grey', marker_line_color = 'black',
                   marker_line_width = 2, opacity = 1)
-    st.plotly_chart(hist_categories,use_container_width=True)
+    st.plotly_chart(hist_categories, width='stretch')
 with col4:
     st.write('')
     #categorizing categories in imperative, leisure,selfcare
@@ -119,7 +119,7 @@ df_select['respected?']=df_select['respected??'].apply(lambda x : 'respected' if
 hist_select=px.bar(df_select,x='Category', y = 'Amount', color='respected?')
 col1,col2,col3,col4,col5=st.columns([6,0.5,1.5,0.5,2])
 with col1:
-    st.plotly_chart(hist_select,use_container_width=True)
+    st.plotly_chart(hist_select)
 with col3:
     st.write('')
     st.write('')
