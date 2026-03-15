@@ -7,4 +7,4 @@ Detailed analysis, forecasting
 ## Launch
 
 Launch the streamlit application with the link below and interact with the app
-[Personal finance app](https://amenanm-personal-finance-personal-finance-app-4gxcrj.streamlit.app/)
+[Personal finance app](https://personal-finance-wc8wrr6zqpsbjvfw4jatuf.streamlit.app/)
